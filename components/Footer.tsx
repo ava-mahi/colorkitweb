@@ -7,12 +7,20 @@ const toolLinks = [
   { href: "/palette-generator", label: "Palette Generator", icon: Palette },
   { href: "/gradient-generator", label: "Gradient Generator", icon: Layers },
   { href: "/contrast-checker", label: "Contrast Checker", icon: Contrast },
+  { href: "/color-picker", label: "Color Picker", icon: Palette },
+  { href: "/color-code-converter", label: "Code Converter", icon: Layers },
+  { href: "/color-shades-generator", label: "Shades Generator", icon: Contrast },
+  { href: "/color-mixer", label: "Color Mixer", icon: Palette },
+  { href: "/glassmorphism-color-generator", label: "Glassmorphism", icon: Layers },
 ];
 
 const moreLinks = [
   { href: "/blog", label: "Blog", icon: BookOpen },
-  { href: "#", label: "Privacy Policy" },
-  { href: "#", label: "Terms of Service" },
+  { href: "/about-us", label: "About Us" },
+  { href: "/contact-us", label: "Contact" },
+  { href: "/privacy-policy", label: "Privacy Policy" },
+  { href: "/terms-conditions", label: "Terms & Conditions" },
+  { href: "/disclaimer", label: "Disclaimer" },
 ];
 
 export function Footer() {
