@@ -1,5 +1,6 @@
 import { ArrowLeft, Calendar, Clock } from "lucide-react";
 import Link from "next/link";
+import { AuthorBio } from "@/components/AuthorBio";
 
 export const metadata = {
   title: "How to Choose Colors Like a Pro — ColorCraft Blog",
@@ -119,6 +120,7 @@ export default function BlogPost() {
             sites, you start recognizing patterns and can create original palettes with confidence.
           </p>
         </div>
+        <AuthorBio />
       </div>
     </article>
   );

@@ -1,5 +1,6 @@
-import { ArrowLeft, Calendar, Clock, User } from "lucide-react";
+import { ArrowLeft, Calendar, Clock } from "lucide-react";
 import Link from "next/link";
+import { AuthorBio } from "@/components/AuthorBio";
 
 export const metadata = {
   title: "CSS Gradient Guide: Linear vs Radial Explained — ColorCraft Blog",
@@ -136,6 +137,7 @@ export default function BlogPost() {
             For truly smooth animated gradients, try our <Link href="/color-gradient-animator" className="text-violet-400 hover:text-violet-300 underline underline-offset-2">color gradient animator</Link>. It generates the optimized CSS with background-size and keyframe animation preconfigured so you do not have to worry about the performance details.
           </p>
         </div>
+        <AuthorBio />
       </div>
     </article>
   );

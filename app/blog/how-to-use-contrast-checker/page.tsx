@@ -1,5 +1,6 @@
-import { ArrowLeft, Calendar, Clock, User } from "lucide-react";
+import { ArrowLeft, Calendar, Clock } from "lucide-react";
 import Link from "next/link";
+import { AuthorBio } from "@/components/AuthorBio";
 
 export const metadata = {
   title: "How to Use a Contrast Checker (Step by Step) — ColorCraft Blog",
@@ -137,6 +138,7 @@ export default function BlogPost() {
             Contrast checking is not a one-time task. It is a habit. Build it into your workflow and your designs will be better for everyone who sees them.
           </p>
         </div>
+        <AuthorBio />
       </div>
     </article>
   );

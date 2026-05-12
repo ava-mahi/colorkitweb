@@ -42,6 +42,33 @@ const posts = [
     category: "CSS",
   },
   {
+    slug: "dark-mode-colors",
+    title: "Why Your Dark Mode Colors Look Terrible (And How to Fix Them)",
+    excerpt:
+      "My first dark mode attempt was a disaster. I inverted everything to black and white and the client said it looked like a power outage. Here is what I learned fixing it.",
+    date: "May 12, 2026",
+    readTime: "8 min read",
+    category: "Dark Mode",
+  },
+  {
+    slug: "cta-button-psychology",
+    title: "The Psychology of CTA Button Colors: What Actually Works",
+    excerpt:
+      "I ran an A/B test convinced orange would win. It came in dead last. That result sent me down a rabbit hole of real conversion data that changed everything.",
+    date: "May 12, 2026",
+    readTime: "9 min read",
+    category: "Psychology",
+  },
+  {
+    slug: "monochrome-design",
+    title: "How I Create Monochrome Designs That Don't Look Boring",
+    excerpt:
+      "A client asked for an entire website in one color. I was terrified. The final result taught me that monochrome is a discipline, not a limitation.",
+    date: "May 12, 2026",
+    readTime: "7 min read",
+    category: "Monochrome",
+  },
+  {
     slug: "how-to-choose-colors-like-a-pro",
     title: "How to Choose Colors Like a Pro (Without a Design Degree)",
     excerpt:

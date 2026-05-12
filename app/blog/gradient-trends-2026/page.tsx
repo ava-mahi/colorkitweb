@@ -1,5 +1,6 @@
 import { ArrowLeft, Calendar, Clock } from "lucide-react";
 import Link from "next/link";
+import { AuthorBio } from "@/components/AuthorBio";
 
 export const metadata = {
   title: "Gradient Trends That Are Actually Worth Using in 2026 — ColorCraft Blog",
@@ -110,6 +111,7 @@ export default function BlogPost() {
             dimension. For accents: no gradient at all — solid colors cut through cleaner. Try it yourself with our <Link href="/gradient-generator" className="text-violet-400 hover:text-violet-300 underline underline-offset-2">gradient generator</Link> or build multi-color blends with the <Link href="/multi-color-gradient-generator" className="text-violet-400 hover:text-violet-300 underline underline-offset-2">multi-color gradient generator</Link>.
           </p>
         </div>
+        <AuthorBio />
       </div>
     </article>
   );

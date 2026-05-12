@@ -1,5 +1,6 @@
 import { ArrowLeft, Calendar, Clock } from "lucide-react";
 import Link from "next/link";
+import { AuthorBio } from "@/components/AuthorBio";
 
 export const metadata = {
   title: "Color Accessibility Is Not Optional — ColorCraft Blog",
@@ -128,6 +129,7 @@ export default function BlogPost() {
             </li>
           </ul>
         </div>
+        <AuthorBio />
       </div>
     </article>
   );

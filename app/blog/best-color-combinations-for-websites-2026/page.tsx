@@ -1,5 +1,6 @@
-import { ArrowLeft, Calendar, Clock, User } from "lucide-react";
+import { ArrowLeft, Calendar, Clock } from "lucide-react";
 import Link from "next/link";
+import { AuthorBio } from "@/components/AuthorBio";
 
 export const metadata = {
   title: "Best Color Combinations for Websites in 2026 — ColorCraft Blog",
@@ -118,6 +119,7 @@ export default function BlogPost() {
             If you are not sure which combination fits your project, try testing them side by side with our <Link href="/color-harmony-generator" className="text-violet-400 hover:text-violet-300 underline underline-offset-2">color harmony generator</Link>. It will show you how your chosen colors relate mathematically, which is often the difference between a combination that feels random and one that feels designed.
           </p>
         </div>
+        <AuthorBio />
       </div>
     </article>
   );

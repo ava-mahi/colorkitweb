@@ -1,5 +1,6 @@
 import { ArrowLeft, Calendar, Clock } from "lucide-react";
 import Link from "next/link";
+import { AuthorBio } from "@/components/AuthorBio";
 
 export const metadata = {
   title: "How I Build Brand Color Palettes From Scratch — ColorCraft Blog",
@@ -134,6 +135,7 @@ export default function BlogPost() {
             the difference between a pretty color set and a professional brand system.
           </p>
         </div>
+        <AuthorBio />
       </div>
     </article>
   );

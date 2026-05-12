@@ -1,5 +1,6 @@
-import { ArrowLeft, Calendar, Clock, User } from "lucide-react";
+import { ArrowLeft, Calendar, Clock } from "lucide-react";
 import Link from "next/link";
+import { AuthorBio } from "@/components/AuthorBio";
 
 export const metadata = {
   title: "What Is Color Theory and Why Designers Need It — ColorCraft Blog",
@@ -115,6 +116,7 @@ export default function BlogPost() {
             If you only take one thing from this article, make it this: color theory is not about rules. It is about a shared visual language that humans have responded to for centuries. Learn the language, and you can speak to your audience in a way that feels effortless.
           </p>
         </div>
+        <AuthorBio />
       </div>
     </article>
   );

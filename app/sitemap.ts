@@ -33,6 +33,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/blog/what-is-color-theory",
     "/blog/how-to-use-contrast-checker",
     "/blog/css-gradient-guide",
+    "/blog/dark-mode-colors",
+    "/blog/cta-button-psychology",
+    "/blog/monochrome-design",
     "/blog/how-to-choose-colors-like-a-pro",
     "/blog/understanding-color-accessibility",
     "/blog/gradient-trends-2026",
@@ -41,6 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/contact-us",
     "/privacy-policy",
     "/terms-conditions",
+    "/guides",
     "/disclaimer",
   ];
 
