@@ -6,6 +6,42 @@ import { Calendar, Clock, ArrowRight, BookOpen } from "lucide-react";
 
 const posts = [
   {
+    slug: "best-color-combinations-for-websites-2026",
+    title: "Best Color Combinations for Websites in 2026",
+    excerpt:
+      "Proven color combinations that convert, stay accessible, and look modern. From navy + coral to black + mint, these are the pairings I use on real projects.",
+    date: "May 12, 2026",
+    readTime: "9 min read",
+    category: "Design Tips",
+  },
+  {
+    slug: "what-is-color-theory",
+    title: "What Is Color Theory and Why Designers Need It",
+    excerpt:
+      "I used to think color theory was academic jargon. Then a client asked for something warm but not too warm, and I realized I needed a framework.",
+    date: "May 12, 2026",
+    readTime: "8 min read",
+    category: "Fundamentals",
+  },
+  {
+    slug: "how-to-use-contrast-checker",
+    title: "How to Use a Contrast Checker (Step by Step)",
+    excerpt:
+      "I once launched a project that looked perfect on my monitor but was unreadable on a cheap laptop. Here is the contrast checking workflow I wish I had followed.",
+    date: "May 12, 2026",
+    readTime: "7 min read",
+    category: "Accessibility",
+  },
+  {
+    slug: "css-gradient-guide",
+    title: "CSS Gradient Guide: Linear vs Radial Explained",
+    excerpt:
+      "I treated gradients as a single CSS feature until a client asked me to animate one. Learning the difference between linear and radial changed everything.",
+    date: "May 12, 2026",
+    readTime: "8 min read",
+    category: "CSS",
+  },
+  {
     slug: "how-to-choose-colors-like-a-pro",
     title: "How to Choose Colors Like a Pro (Without a Design Degree)",
     excerpt:
