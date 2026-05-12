@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://colorcraft.vercel.app/sitemap.xml
