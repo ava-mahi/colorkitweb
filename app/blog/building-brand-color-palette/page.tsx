@@ -66,7 +66,7 @@ export default function BlogPost() {
             I collect 20–30 images that feel right for the brand — not necessarily competitor
             websites, but photography, product shots, nature scenes, architecture. Then I look for
             the color that shows up most consistently across those images. That becomes my
-            starting point.
+            starting point. You can also extract colors directly from images using our <Link href="/image-to-palette-extractor" className="text-violet-400 hover:text-violet-300 underline underline-offset-2">image to palette extractor</Link>.
           </p>
           <p className="text-muted leading-relaxed mb-4">
             This method works because it grounds the palette in something real rather than
@@ -84,13 +84,13 @@ export default function BlogPost() {
             <li className="flex gap-3">
               <span className="text-amber-400 mt-1">•</span>
               <span>
-                Primary color — the signature hue that identifies the brand
+                Primary color — the signature hue that identifies the brand. Lock it in with our <Link href="/palette-generator" className="text-violet-400 hover:text-violet-300 underline underline-offset-2">palette generator</Link>.
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-amber-400 mt-1">•</span>
               <span>
-                Secondary color — complements the primary without competing
+                Secondary color — <Link href="/complementary-color-finder" className="text-violet-400 hover:text-violet-300 underline underline-offset-2">complements the primary</Link> without competing
               </span>
             </li>
             <li className="flex gap-3">

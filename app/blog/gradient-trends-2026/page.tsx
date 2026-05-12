@@ -107,7 +107,7 @@ export default function BlogPost() {
             For hero sections: a 135-degree linear gradient using two colors from my brand
             palette, with the lighter color at the top left. For cards: a radial gradient
             starting from the top corner at about 10% opacity, barely visible but adding
-            dimension. For accents: no gradient at all — solid colors cut through cleaner.
+            dimension. For accents: no gradient at all — solid colors cut through cleaner. Try it yourself with our <Link href="/gradient-generator" className="text-violet-400 hover:text-violet-300 underline underline-offset-2">gradient generator</Link> or build multi-color blends with the <Link href="/multi-color-gradient-generator" className="text-violet-400 hover:text-violet-300 underline underline-offset-2">multi-color gradient generator</Link>.
           </p>
         </div>
       </div>

@@ -74,7 +74,7 @@ export default function BlogPost() {
           <p className="text-muted leading-relaxed mb-4">
             The fix was simple: I pushed the gray darker to #595959, which hits 7:1 and passes
             AAA. The design still looked clean, but now it was actually readable for everyone. A
-            tool like ColorCraft's contrast checker makes this kind of mistake impossible to miss
+            tool like ColorCraft's <Link href="/contrast-checker" className="text-violet-400 hover:text-violet-300 underline underline-offset-2">contrast checker</Link> makes this kind of mistake impossible to miss
             in real time.
           </p>
 
@@ -115,7 +115,7 @@ export default function BlogPost() {
             <li className="flex gap-3">
               <span className="text-emerald-400 mt-1">•</span>
               <span>
-                Test your palette with a color blindness simulator. Red-green combinations that
+                Test your palette with our <Link href="/color-blindness-simulator" className="text-violet-400 hover:text-violet-300 underline underline-offset-2">color blindness simulator</Link>. Red-green combinations that
                 look obvious to you might be invisible to someone with deuteranopia.
               </span>
             </li>

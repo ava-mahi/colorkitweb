@@ -50,15 +50,14 @@ export default function BlogPost() {
           </h2>
           <p className="text-muted leading-relaxed mb-4">
             The biggest mistake I see beginners make is trying to pick five colors at once. They
-            open a palette generator, get five random hex codes, and try to force them to work
+            open a <Link href="/palette-generator" className="text-violet-400 hover:text-violet-300 underline underline-offset-2">palette generator</Link>, get five random hex codes, and try to force them to work
             together. It rarely ends well.
           </p>
           <p className="text-muted leading-relaxed mb-4">
             A better approach: find one color that genuinely feels right for what you are building.
             It might come from a photo, a brand you admire, or just an instinct. Once you have that
             anchor color, everything else becomes much easier. You can build a monochromatic palette
-            by adjusting its lightness and saturation, or find its complementary opposite for
-            contrast.
+            with our <Link href="/tint-and-tone-generator" className="text-violet-400 hover:text-violet-300 underline underline-offset-2">tint & tone generator</Link>, or find its complementary opposite with the <Link href="/complementary-color-finder" className="text-violet-400 hover:text-violet-300 underline underline-offset-2">complementary color finder</Link>.
           </p>
 
           <h2 className="text-xl font-bold text-foreground mt-10 mb-4">
