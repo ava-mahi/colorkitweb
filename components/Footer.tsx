@@ -76,16 +76,20 @@ export function Footer() {
             <h3 className="text-sm font-semibold text-foreground mb-4">Connect</h3>
             <div className="flex items-center gap-3">
               <a
-                href="#"
+                href="https://growwithmaya.info"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex h-9 w-9 items-center justify-center rounded-lg border border-white/10 text-muted hover:text-foreground hover:border-white/20 transition-colors"
-                aria-label="GitHub"
+                aria-label="Website"
               >
                 <Globe className="h-4 w-4" />
               </a>
               <a
-                href="#"
+                href="https://wa.me/+923178457586"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex h-9 w-9 items-center justify-center rounded-lg border border-white/10 text-muted hover:text-foreground hover:border-white/20 transition-colors"
-                aria-label="Twitter"
+                aria-label="WhatsApp"
               >
                 <MessageCircle className="h-4 w-4" />
               </a>
