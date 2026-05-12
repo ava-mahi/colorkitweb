@@ -8,7 +8,13 @@ export default function ContactUsPage() {
     <div className="px-6 py-12">
       <div className="mx-auto max-w-xl">
         <h1 className="text-3xl font-bold tracking-tight sm:text-4xl mb-6 text-center">Contact <span className="gradient-text">Us</span></h1>
-        <p className="text-muted text-center mb-8">Have a suggestion, bug report, or just want to say hello? Fill out the form below.</p>
+        <p className="text-muted text-center mb-2">Have a suggestion, bug report, or just want to say hello? Fill out the form below.</p>
+        <p className="text-center text-sm text-muted mb-8">
+          Or email us directly at{" "}
+          <a href="mailto:just4working478@gmail.com" className="text-violet-400 hover:text-violet-300 underline underline-offset-2 transition-colors">
+            just4working478@gmail.com
+          </a>
+        </p>
         <div className="rounded-2xl glass p-8 space-y-5">
           <div>
             <label className="text-sm text-muted mb-2 block">Name</label>
